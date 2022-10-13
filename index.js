@@ -12,3 +12,7 @@ api.get("/git", async (req, res) => {
 api.get("/pr", async (req, res) => {
   res.send("<h1>Hello PR!</h1>");
 });
+
+api.get("/pr2", async (req, res) => {
+  res.send("<h1>Hello PR2!</h1>");
+});
