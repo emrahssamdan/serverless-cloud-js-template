@@ -7,3 +7,8 @@ api.get("/", async (req, res) => {
 api.get("/git", async (req, res) => {
   res.send("<h1>Hello Git!</h1>");
 });
+
+
+api.get("/pr", async (req, res) => {
+  res.send("<h1>Hello PR!</h1>");
+});
