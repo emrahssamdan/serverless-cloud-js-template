@@ -27,3 +27,7 @@ api.get("/pr4", async (req, res) => {
 api.get("/pr5", async (req, res) => {
   res.send("<h1>Hello PR3!</h1>");
 });
+
+api.get("/pr6", async (req, res) => {
+  res.send("<h1>Hello PR6!</h1>");
+});
